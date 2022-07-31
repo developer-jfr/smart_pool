@@ -1,0 +1,24 @@
+@import 'styles/variables/colors.scss';
+
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid $white;
+    background: transparent;
+    color: $white;
+    padding-inline: 15px;
+    padding-top: 2px;
+    padding-bottom: 5px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+}
+
+.small_text {
+    padding-inline: 32px !important;
+    padding-block: 5px !important;
+}
+
+.border_none {
+    border: none !important;
+    outline: none !important;
+}

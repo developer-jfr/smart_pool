@@ -1,0 +1,157 @@
+@import 'styles/variables/colors.scss';
+
+.balance_wrapp {
+    background-image: url('./../../assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fr_section {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 22px;
+    padding-inline: 100px;
+    background: $light_green;
+    font-family: 'Jost', sans-serif;
+    color: $black;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.fr_section h2:first-child {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.fr_section h2:last-child {
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+.balance_fr_card {
+    width: 219px;
+    height: 360px;
+    background: linear-gradient(15.85deg, $light_violet -4.74%, $light_green 83.4%);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.balance_fr_card h2 {
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color: $black;
+}
+
+.balance_fr_card p {
+    font-size: 25px;
+    padding-top: 30px;
+    font-weight: 700;
+    font-family: 'Jost', sans-serif;
+    color: $black;
+}
+
+.balance_sc_card {
+    border: 2px solid $white;
+    border-radius: 20px;
+    width: 219px;
+    height: 360px;
+    text-align: center;
+}
+
+.balance_sc_card h2 {
+    padding-top: 20px;
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+    color: $white;
+    font-weight: 700;
+}
+
+.balance_sc_card p {
+    font-size: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: $white;
+    padding-top: 15px;
+}
+
+.statistics_title {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statistics_title h2 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: $white;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.statistics_title div img {
+    width: 370px;
+    padding-top: 40px;
+}
+
+
+.statistics_content {
+    background: $light_green;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-block: 35px;
+    margin-block: 50px;
+}
+
+
+.statistics_text {
+    display: flex;
+    gap: 125px;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+}
+
+.statistics_text h2 {
+    color: $black;
+}
+
+.statistics_text p {
+    color: $black;
+    font-weight: 700;
+}
+
+.statistics_addres {
+    position: relative;
+    padding-left: 35px;
+    font-size: 32px;
+    font-family: 'Jost', sans-serif;
+}
+
+.statistics_addres h2 {
+    color: $black;
+}
+
+
+.statistics_addres::before {
+    content: "";
+    position: absolute;
+    height: 95%;
+    width: 1px;
+    top: 0;
+    left: 5px;
+    background-color: $black;
+
+}
+
+.footer_title {
+    text-align: center;
+    font-size: 32px;
+    color: $white;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-bottom: 30px;
+}

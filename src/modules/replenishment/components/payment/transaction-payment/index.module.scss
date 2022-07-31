@@ -1,0 +1,10 @@
+@import 'styles/variables/colors.scss';
+
+.transaction_input {
+    background-color: transparent;
+    color: $white;
+}
+
+.transaction_input::placeholder {
+    color: $white;
+}

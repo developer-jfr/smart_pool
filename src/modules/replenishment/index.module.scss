@@ -1,0 +1,52 @@
+@import 'styles/variables/colors.scss';
+
+.rep_wrapp {
+    background-image: url('./../../assets/bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+}
+
+.fr_section {
+    display: flex;
+    justify-content: space-between;
+    padding-block: 22px;
+    padding-inline: 100px;
+    background: $light_green;
+    font-family: 'Jost', sans-serif;
+    color: $black;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.fr_section h2:first-child {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.fr_section h2:last-child {
+
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 36px;
+
+}
+
+.rep_income {
+    display: flex;
+    gap: 30px;
+    width: fit-content;
+}
+.rep_income_text h2 {
+    font-size: 35px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: $white;
+}
+
+.rep_income_text p {
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: $white;
+}
